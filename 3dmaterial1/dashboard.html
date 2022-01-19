@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+    
+    <button type="button" onclick="OnGetStatisticsClick()">Get statistics</button>
+   
+    <br>
+    <span >Tổng số Click----</span><span style="font-size: 25px; color:red" id="id_total_click">i </span>
+    <br>
+    <span >Hoàn thành-------</span><span style="font-size: 25px; color:blue" id="id_ratio">i </span>
+
+    <br>
+
+    <button type="button" onclick="OnClearDataClick()">Xóa dữ liệu cũ</button>
+</body>
+<footer>
+
+    <!--Javascript-->
+    <script src="js/libs/jquery-3.6.0.min.js"></script>
+    <script src="js/libs/mains/three.min.js"></script>
+    <script src="js/libs/extras/OrbitControls.js"></script>
+
+    <script src="js/libs/loaders/RGBELoader.js"></script>
+    <script src="js/libs/loaders/GLTFLoader.js"></script>
+
+    <script src="js/codes/MouseRaycastEvent.js"></script>
+    <script src="js/mainMat.js"></script>
+    <script src="js/eventListener.js"></script>
+
+    <script src="js/indexMat.js"></script>
+</footer>
+
+</html>
